@@ -85,26 +85,22 @@ div.feature > * > * > img
 {
   width: 280px;
   height: 280px;
-/*  margin: auto;
-  bottom: 20px;
-  left: 20px; 
-    vertical-align: middle;
-      position: absolute;
-*/
   display: block;
   margin: auto;
   bottom: 10px;
-
 }
 
 div.feature > * > h1
 {
-  width: 100%;
-  padding: 1px;
-  top: 10px;
-  left: 0;
-  position: absolute;
+  font-size:1em;
 }
+
+div.feature > * > p
+{
+  font-size: 16px;
+  padding: 10px;
+}
+
 
 .feature-1 {
   background-color: #F5CF8E;
@@ -117,6 +113,14 @@ div.feature > * > h1
 
 .feature-3 {
   background-color: #C8C6FA;
+}
+
+.feature-4 {
+  background-color: #a8d472;
+}
+
+.feature-5 {
+  background-color: #73a8a3;
 }
 
 /* Tablet Styles */

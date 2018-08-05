@@ -27,14 +27,14 @@
 }
 
 
-.feature-2
+.menu, .feature-2
 {
  animation: flyinFromTop 4s ease-out;
 }
 /* Move it (define the animation) */
 @keyframes flyinFromTop {
  0%   { 
- transform: translateY(200%); 		
+ transform: translateY(-200%); 		
  }
  100% { 
  transform: translateY(0%); 
@@ -42,14 +42,14 @@
 }
 
 
-.menu
+.feature-4, .feature-5
 {
  animation: flyinFromBottom 4s ease-out;
 }
 /* Move it (define the animation) */
 @keyframes flyinFromBottom {
  0%   { 
- transform: translateY(-200%); 		
+ transform: translateY(200%); 		
  }
  100% { 
  transform: translateY(0%); 
