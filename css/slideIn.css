@@ -1,0 +1,58 @@
+.feature-1
+{
+ animation: flyinFromLeft 4s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes flyinFromLeft {
+ 0%   { 
+ transform: translateX(200%); 		
+ }
+ 100% { 
+ transform: translateX(0%); 
+ }
+}
+
+.feature-3
+{
+ animation: flyinFromRight 4s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes flyinFromRight {
+ 0%   { 
+ transform: translateX(-200%); 		
+ }
+ 100% { 
+ transform: translateX(0%); 
+ }
+}
+
+
+.feature-2
+{
+ animation: flyinFromTop 4s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes flyinFromTop {
+ 0%   { 
+ transform: translateY(200%); 		
+ }
+ 100% { 
+ transform: translateY(0%); 
+ }
+}
+
+
+.menu
+{
+ animation: flyinFromBottom 4s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes flyinFromBottom {
+ 0%   { 
+ transform: translateY(-200%); 		
+ }
+ 100% { 
+ transform: translateY(0%); 
+ }
+}
+
