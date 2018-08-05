@@ -123,6 +123,10 @@ div.feature > * > p
   background-color: #73a8a3;
 }
 
+.feature-6 {
+  background-color: #cf8603;
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .sign-up,
