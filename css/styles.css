@@ -69,14 +69,13 @@
 }
 
 .feature {
-  background-color: #F5CF8E;
   font-family: "good-times";
   font-size: 30px;
   text-align: center;
   position: relative;
 }
 
-div.feature > * > img
+div.feature > * > * > img
 {
   width: 280px;
   height: 280px;
@@ -94,6 +93,11 @@ div.feature > * > h1
   left: 0;
   position: absolute;
 }
+
+.feature-1 {
+  background-color: #F5CF8E;
+}
+
 
 .feature-2 {
   background-color: #F09A9D;
